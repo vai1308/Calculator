@@ -1,4 +1,4 @@
-# Calculator is a project that I created using math library and various math functions in python.
+Calculator is a project that I created using math library and various math functions in python.
 This calculator can perform upto 14 operations.
 First I imported math module in the program.
 After that I created various user defined functions, one for each operation to be performed.
