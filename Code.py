@@ -50,7 +50,7 @@ while True:
         num1=float(input("Enter the first number:"))
         num2=float(input("Enter the second number"))
     elif choice in ('5','6','7','10','11','12','13','14'):
-        num3=float(input("Enter your choice number"))
+        num3=float(input("Enter the number:"))
     else:
         print("Invalid Choice")
     if choice=='1':
@@ -80,5 +80,5 @@ while True:
     elif choice=='13':
         print("Radian of ",num3,"is",radian(num3))
     elif choice=='14':
-        print("Factorial of ",num3,"is",fact(num3))
+        print("Factorial of ",(num3),"is",fact(int(num3)))
     break
